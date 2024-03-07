@@ -1,0 +1,35 @@
+ERROR ÇEŞİTLERİ
+
+Syntax (sözdizimi) Hataları: yazılımın yazım kurallarına uymadığı ortaya çıkar. Bu hatalar genellikle kodun derlenmesi veya yorumlanması sırasında bulunur. İşte bazı yaygın söz dizimi hataları şu şekildedir :
+Parantez hatası, noktalı virgül eksikliği , Süslü parantezi kapatmayı unutmak… gibi hatalar vardır. 
+Logic ( Mantık) Hataları: 
+Mantık hataları, kodun söz dizimi ve derleme aşamaları herhangi bir hata içermeyen, ancak kodun beklendiği gibi çalışmasına neden olan hatalardır. Bu tür hatalar genellikle algoritmik veya değişimli bir hata sonucu oluşur ve programın beklenen çıkışını engellemesini engeller.
+Örneğin; Bir dizi düşünelim bu dizinin belli bir indeksi vardır ve biz indeks dışı bir veri verdiğimizde hata oluşur bu tür hatalar mantık hatalarına örnek verilebilir.
+Compiler hatası (derleme hatası): Yazılım geliştirme sürecinde programın kaynak kodunun derlenmesi sırasında ortaya çıkan hataları ifade eder. Bu hatalar genellikle kodun yazım kurallarına uymamasından, dilin sözdizimine aykırı olmasından veya kapasitesinin eksikliğinden kaynaklanabilir. Derleme hatası, programın derlenmesi tamamlanmaz ve genellikle bir hata mesajıyla birlikte derleyici tarafından belirtilen hatanın bulunduğu satır veya bölge belirtilir.
+Örneğin;
+public class Main {
+    public static void main(String[] args) {
+        int x = 10;
+        System.out.println("x değeri: " + x)
+    }
+}
+Bu kodda, System.out.println ifadesinden sonra noktalı virgül ( ;) eksik olduğu için derleme hatası ortaya çıkar. Derleyici bu hatalı algılayacak ve hata mesajıyla birlikte programın derlenemeyeceğini bildirecektir. Bu durumda, derleyici düzeltme için kodu düzeltmeyi veya eksik olan öğeyi eklemeyi gerektirecektir.
+
+
+
+Run Time Hatası (Çalışma Zamanı Hatası): Bir programın derlenmesinde herhangi bir hata olmaksızın çalıştırıldığı sırada ortaya çıkan hataları ifade eder. Bu hatalar, genellikle programın çalışması sırasında, yürütülme aşamasında meydana gelir ve kodun beklenmeyen bir durumla karşılaşmasından kaynaklanabilir. Çalışma zamanı hatası, programın düzgün bir şekilde çalışmasını engeller ve genellikle hata ayıklama (hata ayıklama) işlemi gerektirir.
+Örneğin; Sıfıra bölme hatası, dizinin indeksinin taşması gibi hatalar run time zamanında ortaya çıkar.
+Aritmetik Hatalar: genellikle dijital hesaplamalarda yapılan yanlışlıkları ifade eder. Bu tür hatalar, sürekli işlemlerde yanlış sonuçlar veya özellikle dijital hesaplamalarda kullanılan hassas aritmetik işlemlerle ilgili olabilir. 
+Örneğin; Sıfıra bölme,  Küsürat kaybı, yuvarlama hataları, işaretleme hataları, sayı hassasiyeti gibi hatalardır.
+
+Resoruce Hataları(Kaynak Hataları): "Kaynak Hatası" genel bir terimdir ve genellikle bir kaynağa (kaynak) erişimle ilgili sorunları ifade eder. Bu kaynaklar, dosyalar, ağ bağlantıları, bellek alanları veya diğer sistem kaynakları olabilir. İlgili hatalar, kaynağa erişimde bir kısıtlama veya beklenmeyen bir durum olduğunu gösterir.
+Örnek bir sorun hatası, dosya okuma işlemi sırasında dosyanın bulunamaması durumudur veya dosya izinleri ile ilgili bir sorunlar olabilir.
+
+İnterface ( Arayüz) Hataları:  
+Genellikle bir programlama dilindeki bir arayüzün (arayüz) yanlış kullanımı veya olası durumlarda ortaya çıkan hataları ifade eder. Arayüzler, bir modül ayarlı yöntemleri zorlayan bir yapıdır. İşte birkaç örneğin;
+Yetersiz uygulama   , gereksiz yöntemler veya imza uyuşmazlığı gibi hatalardır.
+
+
+
+
+                                                                                                   
